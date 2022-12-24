@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Transcription Extension",
+  "version": "1.0",
+  "description": "This extension transcribes audio and video files.",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Transcribe audio/video"
+  }
+}
